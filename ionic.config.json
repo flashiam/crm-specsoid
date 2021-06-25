@@ -1,0 +1,7 @@
+{
+  "name": "specsAnalyst",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

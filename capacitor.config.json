@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "specsAnalyst",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

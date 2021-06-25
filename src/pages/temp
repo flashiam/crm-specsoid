@@ -1,0 +1,209 @@
+      <IonHeader>
+        <IonToolbar>
+          
+        <IonRow>
+            <IonCol>
+            <IonCard>
+            <IonCardHeader>
+                <IonCardTitle>
+                    Basic Details
+                </IonCardTitle>
+            </IonCardHeader>
+            <IonCardContent>
+            
+            <IonRow>
+            <IonCol>
+                
+                <IonCardSubtitle>
+                <IonIcon icon={personSharp} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.name}
+                </IonCardSubtitle>
+                
+            </IonCol>
+            <IonCol>
+                <IonCardSubtitle>
+                <IonIcon icon={compassSharp} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.busines}
+                </IonCardSubtitle>
+            </IonCol>
+        </IonRow>
+        <IonRow>
+            <IonCol>
+            <IonCardSubtitle>
+                <IonIcon icon={planetSharp} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.type}
+            </IonCardSubtitle>
+            </IonCol>
+            <IonCol>
+            <IonCardSubtitle>
+                <IonIcon icon={hammerSharp} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.for}
+            </IonCardSubtitle>
+            </IonCol>
+        </IonRow>
+        <IonRow>
+        <IonCol>
+            <IonCardSubtitle>
+                <IonIcon icon={locate} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.city}
+            </IonCardSubtitle>
+            </IonCol>
+        <IonCol>
+            <IonCardSubtitle>
+                <IonIcon icon={phonePortraitSharp} style={{marginRight:"30px"}}>
+
+                </IonIcon>
+                {leader.lead.contact}
+            </IonCardSubtitle>
+            </IonCol>
+        </IonRow>
+            
+            </IonCardContent>
+
+        </IonCard>
+            </IonCol>
+        <IonCol>
+            <IonCard>
+            <IonTextarea placeholder="Minutes of the meeting"></IonTextarea>
+            </IonCard>
+            
+        </IonCol>
+        </IonRow>
+        
+        {/* <IonSegment> */}
+        {/* <IonCard> */}
+        
+        {/* </IonCard> */}
+              
+          {/* </IonSegment> */}
+          <IonCard style={{boxShadow:"0px 0px 0px", marginBottom:"-5px", marginLeft:"-5px", marginRight:"-5px", marginTop:"-5px"}}>
+              <IonRow>
+                  <IonCol>
+                      <IonCardSubtitle style={{textAlign:"center", borderBottom:"5px solid #3880ff", marginRight:"-10px", paddingBottom:"10px"}}>
+                          Build Profile
+                      </IonCardSubtitle>
+                  </IonCol>
+                  <IonCol>
+                      <IonCardSubtitle style={{textAlign:"center", borderBottom:"5px solid #92949c", marginRight:"-10px", paddingBottom:"10px"}}>
+                          Channelise Lead
+                      </IonCardSubtitle>
+                  </IonCol>
+                  <IonCol>
+                      <IonCardSubtitle style={{textAlign:"center", borderBottom:"5px solid #92949c", paddingBottom:"10px"}}>
+                          Share URL
+                      </IonCardSubtitle>
+                  </IonCol>
+              </IonRow>
+          </IonCard>
+          {/* <IonRow>
+                <IonCol>
+                     <IonCard style={{borderBottom:"3px solid #3880ff", paddingLeft:"30%"}}>
+                      Build Profile
+                      </IonCard> 
+                </IonCol>
+                <IonCol>
+                    <IonCard style={{borderBottom:"3px solid #92949c", paddingLeft:"30%"}}>
+                    Channelize Lead
+                    </IonCard>
+                </IonCol>
+                <IonCol>
+                    <IonCard style={{borderBottom:"3px solid #92949c", paddingLeft:"30%"}}>
+                    Share URL
+                    </IonCard>
+                </IonCol>
+        </IonRow> */}
+        </IonToolbar>
+      </IonHeader>
+
+      {
+          aspiration:{
+              businessReq:{
+                  data:[], 
+                  desc:""
+                }, 
+                applicationReq:{
+                    data:[], 
+                    desc:""
+                }
+            }, 
+            
+            foundation:{
+                budget:"", 
+                vision:{
+                    data:"", 
+                    desc:""
+                }
+            }, 
+
+            businessPort:{
+                businessEnt:"", 
+                businessScale:"", 
+                businessDomain:{
+                    data:[], 
+                    desc:""
+                }, 
+                serviceDomain:{
+                    data:[], 
+                    desc:""
+                }
+            }, 
+            
+            businessInfra:{
+                servicePlat:{
+                    data:[], 
+                    desc:""
+                }, 
+                operatingSys:{
+                    data:[], 
+                    desc:""
+                }, 
+                marketingSource:{
+                    data:[], 
+                    desc:""
+                }
+            }
+        }
+
+
+const future = (sd, ss, as, SS, ml)=> {
+    var success, failure    
+    
+    switch(success){
+        case sd + ss:
+
+
+        end
+        case sd + as:
+
+        end
+        case sd + as + ss:
+
+        end 
+
+        case SS - ml:
+
+        end
+        case SS - sd:
+
+        end
+        case SS - sd - ss:
+
+        end
+        case SS - ml - as:
+
+        end
+
+    }
+}
+
+()=>history.push({pathname:"/analysis/requirement", state:{lead:leader, req:req}})
